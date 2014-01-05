@@ -42,5 +42,5 @@ class MysqlDatabase
 end
 
 
-db = MysqlDatabase.new('127.0.0.1','mydatabase','root','akurniawan')
+db = MysqlDatabase.new('127.0.0.1','mydatabase','user','password')
 db.connect()
