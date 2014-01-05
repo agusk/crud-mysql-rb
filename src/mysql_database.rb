@@ -4,7 +4,6 @@
 # email: agusk2007@gmail.com
 ###################################################
 
-
 require 'mysql'
 
 class MysqlDatabase
