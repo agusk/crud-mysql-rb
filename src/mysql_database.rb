@@ -80,7 +80,7 @@ class MysqlDatabase
 
 end
 
-
+# change database configuration
 db = MysqlDatabase.new('127.0.0.1','mydatabase','user','password')
 db.connect()
 db.create_data()
