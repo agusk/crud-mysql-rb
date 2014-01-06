@@ -44,6 +44,7 @@ class MysqlDatabase
     puts('connected')
 
     puts('retrieving all data')
+    puts('----------------------------------------')
     results = mysql.query('select idproduct,name,price,created from product')
     results.each do |idproduct,name,price,created|
       puts("#{idproduct}\t #{name}\t #{price}\t #{created}")
