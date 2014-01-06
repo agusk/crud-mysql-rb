@@ -4,7 +4,6 @@
 # email: agusk2007@gmail.com
 ###################################################
 
-
 require 'mysql'
 
 class MysqlDatabase
@@ -50,6 +49,7 @@ class MysqlDatabase
   end
 
   def delete_data(id)
+
 
   end
 
