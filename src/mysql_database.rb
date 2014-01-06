@@ -35,6 +35,7 @@ class MysqlDatabase
 
   def delete_data(id)
 
+
   end
 
 
